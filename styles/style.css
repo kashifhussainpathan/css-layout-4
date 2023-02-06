@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    height: 100%;
+}
+
+:root {
+    --color-primary: #5955b3;
+    --color-secondary:#3c2f60;
+}
+
+button {
+    background-color: var(--color-primary);
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    color: white;
+    cursor: pointer;
+    font-weight: 500;
+    letter-spacing: 0.05rem;
+}
+
+/* ------------container------------ */
+.container {
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+/* ------------ Navigation ----------- */
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+.grow-list{
+    flex-grow: 1;
+    margin-left: 2rem;
+}
+/* ---------LOGO---------- */
+.logo{
+    width: 120px;
+}
+.list{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 2rem;
+    font-weight: 400;
+}
+.list li:hover {
+    color: #5955b3;
+    cursor: pointer;
+  }
+.banner-container{
+    display: flex;
+    align-items: center;
+    margin-top: 1.5rem;
+
+}
+/* -------left side----------- */
+.heading-text {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 3rem;
+    color: var(--color-secondary)
+  }
+  .heading-text span {
+    color: var(--color-primary);
+  }
+
+  .description {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    letter-spacing: 0.01em;
+    color: #828282;
+    margin-top: 1.5rem;
+  }
+
+  .btn {
+    margin-top: 1.5rem;
+  }
+  
+  /* ------------right side------------ */
+  .rightside img{
+    width: 800px;
+  }
